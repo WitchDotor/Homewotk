@@ -70,6 +70,8 @@ fun basicMath(x: Int, y: Int, operator: String): Int? {
 fun hardBasicMath(expression: String): Int? {
     val expressionNumbers = expression.filterNot { it.isLetter() }
     val expressionOperator = expression.filterNot { it.isDigit() }
+
+    val a =0
     var answer: Int
     var temporalAnswers = mutableListOf<Int>()
 
